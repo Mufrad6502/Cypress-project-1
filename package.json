@@ -1,0 +1,19 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open":"cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "test"
+  ],
+  "author": "mufrad",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}
