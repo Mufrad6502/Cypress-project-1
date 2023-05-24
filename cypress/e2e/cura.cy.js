@@ -6,7 +6,8 @@ describe("Cura make appoinment",()=>{
     cy.get("#txt-username").click().type("John Doe");
     cy.get("#txt-password").click().type("ThisIsNotAPassword");
     cy.get("#btn-login").click();
+    cy.wait(2000)
+    //Randomly selecting options from the dropdown
+    cy.get('select').select(Math.floor(Math.random() * 3));
   });
-
-
 })
